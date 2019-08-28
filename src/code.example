@@ -1,0 +1,15 @@
+import React, { useState, useEffect } from "react";
+
+export default function MyComponent(props) {
+  const [state, setState ] = useState({username: ""});
+
+  const handleChangeInput = (event) => {
+    
+  }
+  return (
+    <>
+      <h1>Hola mundo</h1>
+      <input type="text" name="username" onChange={} />
+    </>
+  )
+}
